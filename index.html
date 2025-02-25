@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Template Level</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-light p-md-0">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center justify-content-center" href="#">
+        <img src="images/logo.png" alt="Site Logo"> <h1 class="m-0">Level</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link ps-3 p-md-4 pt-md-5 pb-md-5 active" aria-current="page" href="#">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ps-3 p-md-4 pt-md-5 pb-md-5" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ps-3 p-md-4 pt-md-5 pb-md-5" href="#recommends">Recommends</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ps-3 p-md-4 pt-md-5 pb-md-5" href="#contact">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <div class="city-search d-flex align-items-center justify-content-center" id="search">
+    <div class="container pt-4 pb-4 bg-light">
+      <form action="" class="row p-4 pt-2 pb-2">
+        <div class="position-relative mb-3 col-12">
+          <i class="fa-solid fa-location-dot position-absolute top-50 translate-middle-y"></i>
+          <input type="text" name="city" class="form-control special-padding bg-light rounded-0" id="city-input" placeholder="Type your destination...">
+        </div>
+        <div class="position-relative mb-3 col-4">
+          <i class="fa-solid fa-calendar-days position-absolute top-50 translate-middle-y"></i>
+          <input type="text" class="form-control special-padding datepicker bg-light rounded-0" id="checkIn-input" placeholder="Check In">
+        </div>
+        <div class="position-relative mb-3 col-4">
+          <i class="fa-solid fa-calendar-days position-absolute top-50 translate-middle-y"></i>
+          <input type="text" class="form-control special-padding datepicker bg-light rounded-0" id="checkOut-input" placeholder="Check Out">
+        </div>
+        <div class="position-relative mb-3 col-4">
+          <i class="fa-solid fa-bed position-absolute top-50 translate-middle-y"></i>
+          <select id="room-select" class="form-control special-padding bg-light rounded-0">
+            <option value="">Rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="position-relative mb-3 col-4">
+          <i class="fa-solid fa-user position-absolute top-50 translate-middle-y"></i>
+          <select id="adults-select" class="form-control special-padding bg-light rounded-0">
+            <option value="">Adults</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="position-relative mb-3 col-4">
+          <i class="fa-solid fa-user position-absolute top-50 translate-middle-y"></i>
+          <select id="child-select" class="form-control special-padding bg-light rounded-0">
+            <option value="">Children</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="position-relative mb-3 col-4">
+          <input type="submit" class="btn form-control special-padding fw-bold text-uppercase text-white rounded-0 w-100" value="Check">
+        </div>
+        <p class="m-0">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, nihil. 
+          <a href="#" class="text-decoration-none">Need Help?</a>
+        </p>
+      </form>
+    </div>
+  </div>
+  <section class="subscribe pt-5 pb-5 text-center text-white" id="subscribe">
+    <div class="container">
+      <h2 class="h1">We are here to help you?</h2>
+      <p class="fs-5">
+        Subscribe to get our newsletters
+      </p>
+      <a href="#" class="btn p-2 ps-4 pe-4 border-2 border-white text-white">Subscribe Newsletters</a>
+    </div>
+  </section>
+  <section class="services position-relative pt-5 pb-5 text-center bg-white" id="services">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="position-absolute w-100 top-0 start-0">
+      <polygon fill="var(--main-color)" points="0,0  100,0  50,50"></polygon>                   
+  </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 p-0">
+          <div class="service p-4 mt-5">
+            <i class="fa-solid fa-gavel fa-4x"></i>
+            <h3 class="mt-4">Level HTML Template by Tooplate website</h3>
+            <p>
+              You are allowed to download, edit and use this template for your business or client websites.
+            </p>
+            <a href="#" class="btn text-white fw-bold text-uppercase rounded-0 pt-2 pb-2">
+              Continue Reading
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0">
+          <div class="service p-4 mt-5">
+            <i class="fa-solid fa-plane fa-4x"></i>
+            <h3 class="mt-4">Original Website Template Producer</h3>
+            <p>
+              You are NOT allowed to re-distribute the downloadable template ZIP file on any website.
+            </p>
+            <a href="#" class="btn text-white fw-bold text-uppercase rounded-0 pt-2 pb-2">
+              Continue Reading
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0">
+          <div class="service p-4 mt-5">
+            <i class="fa-brands fa-meetup fa-4x"></i>
+            <h3 class="mt-4">Contact us if you have any question</h3>
+            <p>
+              If you see this template being distributed on any other site, that is an illegal copy.
+            </p>
+            <a href="#" class="btn text-white fw-bold text-uppercase rounded-0 pt-2 pb-2">
+              Continue Reading
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="recommends pt-5 pb-5" id="recommends">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="recommend-slick">
+            <div class="card me-2">
+              <img src="images/img-01.jpg" class="card-img-top" alt="Slide 1">
+              <div class="card-body">
+                <h5 class="card-title">Nunc in felis aliquet metus luctus iaculis</h5>
+                <p class="card-text">
+                  Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla. Nullam sollicitudin at augue venenatis eleifend. Nulla ligula ligula, egestas sit amet viverra id, iaculis sit amet ligula.
+                </p>
+                <a href="#" class="btn text-white text-uppercase fw-medium border-0">Get More Info.</a>
+              </div>
+            </div>
+            <div class="card me-2">
+              <img src="images/img-02.jpg" class="card-img-top" alt="Slide 2">
+              <div class="card-body">
+                <h5 class="card-title">Sed cursus dictum nunc quis molestie</h5>
+                <p class="card-text">
+                  Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.
+                </p>
+                <a href="#" class="btn text-white text-uppercase fw-medium border-0">View Detail</a>
+              </div>
+            </div>
+            <div class="card me-2">
+              <img src="images/img-01.jpg" class="card-img-top" alt="Slide 3">
+              <div class="card-body">
+                <h5 class="card-title">Eget diam pellentesque interdum ut porta</h5>
+                <p class="card-text">
+                  Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.
+                </p>
+                <a href="#" class="btn text-white text-uppercase fw-medium border-0">More Info.</a>
+              </div>
+            </div>
+            <div class="card me-2">
+              <img src="images/img-02.jpg" class="card-img-top" alt="Slide 4">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur</h5>
+                <p class="card-text">
+                  Suspendisse molestie sed dui eget faucibus. Duis accumsan sagittis tortor in ultrices. Praesent tortor ante, fringilla ac nibh porttitor, fermentum commodo nulla.
+                </p>
+                <a href="#" class="btn text-white text-uppercase fw-medium border-0">Detail Info.</a>
+              </div>
+            </div>
+            <div class="card me-2">
+              <img src="images/img-01.jpg" class="card-img-top" alt="Slide 5">
+              <div class="card-body">
+                <h5 class="card-title">Orci varius natoque penatibus et sollicitudin</h5>
+                <p class="card-text">
+                  Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.
+                </p>
+                <a href="#" class="btn text-white text-uppercase fw-medium border-0">Read More</a>
+              </div>
+            </div>
+            <div class="card me-2">
+              <img src="images/img-02.jpg" class="card-img-top" alt="Slide 6">
+              <div class="card-body">
+                <h5 class="card-title">Nullam sollicitudin at augue sollicitudin</h5>
+                <p class="card-text">
+                  Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.
+                </p>
+                <a href="#" class="btn text-white text-uppercase fw-medium border-0">More Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="places bg-white">
+            <div class="head p-3 pt-2 pb-2 text-white">
+              <h5>Recommended Places</h5>
+              <p class="mb-0">Places that we recommend for you</p>
+            </div>
+            <div class="overview p-4">
+              <a href="#" class="d-flex align-items-center text-decoration-none text-black mb-2">
+                <div class="flex-shrink-0">
+                  <img src="images/tn-img-01.jpg" alt="Europe">
+                </div>
+                <h5 class="flex-grow-1 text-uppercase ms-3 mb-0">
+                  Europe
+                </h5>
+              </a>
+              <a href="#" class="d-flex align-items-center text-decoration-none text-black mb-2">
+                <div class="flex-shrink-0">
+                  <img src="images/tn-img-02.jpg" alt="Asia">
+                </div>
+                <h5 class="flex-grow-1 text-uppercase ms-3 mb-0">
+                  Asia
+                </h5>
+              </a>
+              <a href="#" class="d-flex align-items-center text-decoration-none text-black mb-2">
+                <div class="flex-shrink-0">
+                  <img src="images/tn-img-03.jpg" alt="Africa">
+                </div>
+                <h5 class="flex-grow-1 text-uppercase ms-3 mb-0">
+                  Africa
+                </h5>
+              </a>
+              <a href="#" class="d-flex align-items-center text-decoration-none text-black">
+                <div class="flex-shrink-0">
+                  <img src="images/tn-img-04.jpg" alt="America">
+                </div>
+                <h5 class="flex-grow-1 text-uppercase ms-3 mb-0">
+                  America
+                </h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="video pt-5 pb-5">
+    <div class="box position-relative">
+      <div class="overlay position-absolute start-0 top-0 w-100 h-100 d-flex align-items-center justify-content-center fs-1 text-white">
+        <i class="fa-solid fa-circle-play"></i>
+      </div>
+      <video class="object-fit-cover h-100 w-100">
+        <source src="videos/Level.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+  <div class="contact-us pt-5 pb-5" id="contact">
+    <div class="container">
+      <div class="row row-gap-3">
+        <div class="col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109264.06126176802!2d30.867309447075517!3d31.151344582717126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f652cfe13ab00f%3A0x16c7f6018b323e92!2sKafr%20el-Sheikh%2C%20Kafr%20El-Sheikh%20Governorate!5e0!3m2!1sen!2seg!4v1740155427037!5m2!1sen!2seg" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-6">
+          <form action="">
+            <div class="input-group mb-3">
+              <i class="fa-solid fs-5 fa-user position-absolute top-50 translate-middle-y"></i>
+              <input type="text" class="form-control special-padding rounded-0 border-0" placeholder="Name" required>
+            </div>
+            <div class="input-group mb-3">
+              <i class="fa-solid fs-5 fa-envelope position-absolute top-50 translate-middle-y"></i>
+              <input type="email" class="form-control special-padding rounded-0 border-0" placeholder="Email" required>
+            </div>
+            <div class="input-group mb-3">
+              <i class="fa-solid fs-5 fa-book position-absolute top-50 translate-middle-y"></i>
+              <input type="text" class="form-control special-padding rounded-0 border-0" placeholder="Subject" required>
+            </div>
+            <div class="input-group mb-3">
+              <i class="fa-solid fs-5 fa-comment-dots special position-absolute "></i>
+              <textarea class="form-control special-padding rounded-0 border-0" placeholder="Message" required></textarea>
+            </div>
+            <input type="submit" class="btn text-white form-control special-padding text-uppercase fw-bold rounded-0 border-0" value="Send Message Now">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-black text-white pt-4 pb-4 text-center">
+    <div class="container">
+      Copyright &copy; 2025 Your Company - Design: 
+      <a href="https://github.com/AbuEisha?tab=repositories" class="text-decoration-none" style="color: var(--main-color);" target="_blank">
+        Mustafa Abu Eisha
+      </a>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

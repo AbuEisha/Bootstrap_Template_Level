@@ -1,0 +1,112 @@
+:root {
+  --main-color: #ee5057;
+  --secondary-color: #f4f4f4;
+  --hover-color: #c73d43;
+}
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show,
+.navbar-nav .nav-link:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+.city-search {
+  background: url(../images/bg-img-1.jpg) no-repeat center center/cover;
+  height: 515px;
+}
+.special-padding {
+  padding: 14px 14px 14px 50px;
+}
+form input[type="submit"] {
+  padding-left: 14px;
+  background-color: var(--main-color);
+}
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+  background-color: var(--hover-color);
+}
+.city-search form svg {
+  color: var(--main-color);
+  left: 25px;
+}
+.city-search p a {
+  color: inherit;
+}
+.city-search p a:hover {
+  color: #0d6efd;
+}
+.subscribe a:hover {
+  background-color: white;
+  color: var(--main-color) !important;
+}
+.services {
+  color: var(--main-color);
+}
+.services >svg {
+  height: 120px;
+}
+.services .service {
+  transition: .3s;
+}
+.services .service:hover { 
+  transform: scale(1.1);
+  box-shadow: 0 0 7px rgb(0 0 0 / 60%);
+}
+.services a:hover {
+  background-color: var(--hover-color);
+}
+.recommends {
+  background-color: var(--secondary-color);
+}
+.recommends .recommend-slick .card h5 {
+  color: var(--main-color);
+}
+.recommends .recommend-slick .card p {
+  font-size: 14px;
+}
+.recommends .recommend-slick .card a {
+  padding: 11px;
+}
+.recommends .recommend-slick .card a:hover {
+  background-color: var(--hover-color)
+}
+.subscribe,
+.services a,
+.recommends .recommend-slick .card a,
+.recommends .places .head {
+  background-color: var(--main-color);
+}
+.recommends .places .overview a {
+  background-color: var(--secondary-color);
+  transition: .3s;
+}
+.recommends .places .overview a:hover {
+  background-color: #c1c1c1;
+}
+.video .box {
+  height: 550px;
+}
+.video .box .overlay {
+  background-color: rgb(0 0 0 / 60%);
+}
+.video .box .overlay svg {
+  z-index: 6;
+  cursor: pointer;
+}
+.contact-us form input:not([type="submit"]),
+.contact-us form textarea:focus,
+.contact-us form input:not([type="submit"]),
+.contact-us form textarea {
+  background-color: var(--secondary-color);
+}
+.contact-us form textarea {
+  height: 250px;
+}
+.contact-us form svg {
+  z-index: 10;
+  left: 15px;
+  color: var(--main-color);
+}
+.contact-us form .special {
+  top: 16px;
+}
+
